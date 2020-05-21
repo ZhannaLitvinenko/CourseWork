@@ -1,0 +1,17 @@
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.csprojAssemblyReference.cache
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.Properties.Resources.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.GenerateResource.cache
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.csproj.CoreCompileInputs.cache
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\bin\Debug\CourseWork.exe.config
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\bin\Debug\CourseWork.exe
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\bin\Debug\CourseWork.pdb
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.exe
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\CourseWork.pdb
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.AddNewBookForm1.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.AddNewBookForm2.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.AddNewBookForm3.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.AddNewBookForm4.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.AddNewBookForm5.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.MenuForm.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.ShowAllBooksForm.resources
+C:\Users\Вадим\source\repos\CourseWork\CourseWork\obj\Debug\Курсова.FullBookInformation.resources

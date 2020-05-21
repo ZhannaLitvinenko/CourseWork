@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\bin\Debug\CourseWork.exe.config
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\bin\Debug\CourseWork.exe
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\bin\Debug\CourseWork.pdb
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.AddNewBookForm1.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.AddNewBookForm2.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.AddNewBookForm3.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.AddNewBookForm4.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.AddNewBookForm5.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.FullBookInformation.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.MenuForm.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\CourseWork.Properties.Resources.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.ShowAllBooksForm.resources
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\Курсова.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\CourseWork.exe
+C:\Users\User\Desktop\Курсова\Курсова\Курсова\obj\Debug\CourseWork.pdb

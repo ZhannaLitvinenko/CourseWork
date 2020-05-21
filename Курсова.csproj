@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{105A1CB3-A092-44E0-90DF-24A2C9AC0704}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CourseWork</RootNamespace>
+    <AssemblyName>CourseWork</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddNewBookForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBookForm1.Designer.cs">
+      <DependentUpon>AddNewBookForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBookForm2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBookForm2.Designer.cs">
+      <DependentUpon>AddNewBookForm2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBookForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBookForm3.Designer.cs">
+      <DependentUpon>AddNewBookForm3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBookForm4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBookForm4.Designer.cs">
+      <DependentUpon>AddNewBookForm4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddNewBookForm5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewBookForm5.Designer.cs">
+      <DependentUpon>AddNewBookForm5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Books\Book.cs" />
+    <Compile Include="Classes\Books\Fiction.cs" />
+    <Compile Include="Classes\Books\SpecialBook.cs" />
+    <Compile Include="Classes\Books\StudyBook.cs" />
+    <Compile Include="Classes\Data.cs" />
+    <Compile Include="Enums\PaperLightReflectionType.cs" />
+    <Compile Include="FullBookInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FullBookInformation.Designer.cs">
+      <DependentUpon>FullBookInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowAllBooksForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowAllBooksForm.Designer.cs">
+      <DependentUpon>ShowAllBooksForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Structs\BookSize.cs" />
+    <Compile Include="Structs\PaperType.cs" />
+    <Compile Include="Enums\BindingType.cs" />
+    <Compile Include="Enums\CoverType.cs" />
+    <Compile Include="Classes\Genres\Anthology.cs" />
+    <Compile Include="Classes\Genres\Atlas.cs" />
+    <Compile Include="Classes\Genres\Catalog.cs" />
+    <Compile Include="Classes\Genres\DramaticalPiece.cs" />
+    <Compile Include="Classes\Genres\Genre.cs" />
+    <Compile Include="Classes\Genres\HandBook.cs" />
+    <Compile Include="Classes\Genres\Novel.cs" />
+    <Compile Include="Classes\Genres\Poem.cs" />
+    <Compile Include="Classes\Genres\TaskBook.cs" />
+    <Compile Include="Classes\Genres\TextBook.cs" />
+    <Compile Include="MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddNewBookForm1.resx">
+      <DependentUpon>AddNewBookForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBookForm2.resx">
+      <DependentUpon>AddNewBookForm2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBookForm3.resx">
+      <DependentUpon>AddNewBookForm3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBookForm4.resx">
+      <DependentUpon>AddNewBookForm4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddNewBookForm5.resx">
+      <DependentUpon>AddNewBookForm5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FullBookInformation.resx">
+      <DependentUpon>FullBookInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ShowAllBooksForm.resx">
+      <DependentUpon>ShowAllBooksForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
